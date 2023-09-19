@@ -1,0 +1,22 @@
+Git notes
+Change directories to the folder that has the files you want to push to git.
+
+    run the #git init - command to initialize the git and set the files as local git repository.
+
+    run the  #git add . - to stage the files and get them ready for pushing to the repository
+
+    run the  #git status command to view what you have staged to be pushed
+
+    run the #git commit -m " your message for the commit"
+
+    run the #git remote  add origin "git@github.com:bethangelandichu/scaling-funicular.git"//only ran in the first occurence during pushing to repository.
+
+    run the #git push -u origin main  - this pushes your changes to the repository
+
+---
+
+research do you need to add URL each time when pushing to git????
+
+**************************************************************************************************************
+
+
