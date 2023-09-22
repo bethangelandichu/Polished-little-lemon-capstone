@@ -7,20 +7,23 @@
   height: 70vh;
   margin: 100px auto;
   max-width: 500px;
+  
   h2 {
     font-family: $primary-font;
     font-size: 62px;
     line-height: 1.2;
-    color: $base-color;
     font-weight: 700;
+    color: black;
   }
   .text {
     font-family: $sec-font;
     font-size: 20px;
     line-height: 1.2;
-    color: $dark;
+     color: $base-color;
+   
     b {
       font-weight: 700;
+     
     }
   }
 }

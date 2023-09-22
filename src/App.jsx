@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import NotFound from "./components/NotFound";
 import Main from "./components/Main";
 import Reservation from "./components/Reservation";
+// import Menu from "./components/Menu";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/reservation" element={<Reservation />} />
         <Route path="/confirmed" element={<Confirmed />} />
+        {/* <Route path="/Menu" element={Menu} />  */}
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

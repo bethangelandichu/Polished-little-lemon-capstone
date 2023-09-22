@@ -1,7 +1,10 @@
 import "./Header.scss";
 import Logo from "../assets/Logo.svg";
 import { Link } from "react-router-dom";
+
+
 const Header = () => {
+  
   const handleScroll = () => {
     const ele = document.querySelector("#about");
     if (ele) {
@@ -28,7 +31,7 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/404">Menu</Link>
+                <Link to="/Menu">Menu</Link>
               </li>
               <li>
                 <Link to="/reservation">Reservation</Link>

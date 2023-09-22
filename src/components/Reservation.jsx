@@ -1,10 +1,12 @@
 import "./Reservation.scss";
 import Image from "../assets/chef.jpg";
 import { useState } from "react";
+
 const Reservation = () => {
   const [occasion, setOccasion] = useState("");
   const [preferences, setPreferences] = useState("");
   const [comments, setComments] = useState("");
+
 
   return (
     
@@ -107,6 +109,8 @@ const Reservation = () => {
           value={comments}
           onChange={(e) => setComments(e.target.value)}
         ></textarea>
+
+
       </div>
               </section>
               <br></br>

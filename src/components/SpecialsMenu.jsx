@@ -11,7 +11,7 @@ const SpecialsMenu = () => {
         <section className="special-menu-wrap">
           <div className="heading">
             <p className="title">This weeks specials!</p>
-            <Link className="cta" to="/404">
+            <Link className="cta" to="/Online Menu">
               Online Menu
             </Link>
           </div>

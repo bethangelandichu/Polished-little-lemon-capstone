@@ -1,6 +1,7 @@
 import "./Confirmed.scss";
 import { ReactComponent as Verified } from "../assets/Verified.svg";
 import { Link } from "react-router-dom";
+import Menu from "./Menu";
 const Confirmed = () => {
   return (
     <section className="confirmed container">
@@ -15,9 +16,15 @@ const Confirmed = () => {
         See you soon!
       </p>
       <section className="redirect-buttons">
+      <div>
+        <Link className="redirect-button" to="/Menu">
+          Menu.
+
+        </Link>
+        </div>
         {/* <a
           className="redirect-button"
-          href={require("../../assets/menu.webp")}
+          href={require("./assets/menu")}
           target="_blank"
           rel="noreferrer"
         >

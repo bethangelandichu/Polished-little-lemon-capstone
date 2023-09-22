@@ -1,0 +1,105 @@
+
+@use "../scss/index" as *;
+
+/* Menu.scss */
+
+.menu {
+    background-color: #eaecd1; /* Yellow background color for the menu */
+    padding: 20px;
+  }
+  
+  .menu h2 {
+    color: black; /* Green color for the menu header */
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .menu h3 {
+    color: black; /* Green color for category headers */
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .item-name {
+    flex: 2;
+    font-weight: bold;
+    color:green; /* Green color for item names */
+  }
+  
+  .item-description {
+    flex: 5;
+    // color: white; /* White color for item descriptions */
+    background-color: rgb(144, 177, 144); /* Green background color for item descriptions */
+    padding: 5px;
+    border-radius: 5px;
+    
+  }
+  
+  .item-price {
+    flex: 1;
+    color: green; /* Green color for item prices */
+  }
+  
+
+
+
+
+
+
+
+// /* Menu.css */
+
+// .menu {
+//     font-family: Arial, sans-serif;
+//     padding: 20px;
+//     max-width: 600px;
+//     margin: 0 auto;
+//   }
+  
+//   h2 {
+//     font-size: 24px;
+//     margin-bottom: 20px;
+//     text-align: center;
+//   }
+  
+//   h3 {
+//     font-size: 20px;
+//     margin-top: 20px;
+//   }
+  
+//   ul {
+//     list-style: none;
+//     padding: 0;
+//   }
+  
+//   li {
+//     display: flex;
+//     justify-content: space-between;
+//     margin-bottom: 10px;
+//   }
+  
+//   .item-name {
+//     font-weight: bold;
+//   }
+  
+//   .item-description {
+//     flex: 1;
+//     margin-left: 10px;
+//   }
+  
+//   .item-price {
+//     min-width: 60px;
+//     text-align: right;
+//   }

@@ -10,8 +10,11 @@ Change directories to the folder that has the files you want to push to git.
     run the #git commit -m " your message for the commit"
 
     run the #git remote  add origin "git@github.com:bethangelandichu/scaling-funicular.git"//only ran in the first occurence during pushing to repository.
+            git remote add origingit@github.com:bethangelandichu/polished-Little-Lemon-Project.git
 
     run the #git push -u origin main  - this pushes your changes to the repository
+
+    if all fails use force: git push -u -f origin main
 
 ---
 
@@ -20,3 +23,7 @@ research do you need to add URL each time when pushing to git????
 **************************************************************************************************************
 
 
+vscode NOTES
+
+create-react-app.(its name here)
+npm start

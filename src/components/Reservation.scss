@@ -1,7 +1,11 @@
+
+
+
 @use "../scss/index" as *;
 
 .reservation {
   margin: 40px 0;
+
   .reservation-wrap {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -94,6 +98,11 @@
     }
   }
 }
+
+
+
+
+
 @media only screen and (max-width: 800px) {
   .reservation {
     .reservation-wrap {
@@ -117,3 +126,4 @@
     }
   }
 }
+
