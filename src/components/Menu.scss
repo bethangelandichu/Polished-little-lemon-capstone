@@ -1,23 +1,28 @@
 
 @use "../scss/index" as *;
 
-/* Menu.scss */
+
 
 .menu {
-    background-color: #eaecd1; /* Yellow background color for the menu */
-    padding: 20px;
+    background-color: #fff; 
+    padding: 30px;
   }
   
   .menu h2 {
-    color: black; /* Green color for the menu header */
-    font-size: 32px;
+    color: #494949;; 
     margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 32px;
+
+
   }
   
   .menu h3 {
-    color: black; /* Green color for category headers */
-    font-size: 20px;
+    color:#053418; 
+    font-size: 24px;
     margin-top: 20px;
+    font-style: oblique;
+  
   }
   
   ul {
@@ -29,29 +34,38 @@
   li {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
   }
   
   .item-name {
     flex: 2;
     font-weight: bold;
-    color:green; /* Green color for item names */
+    color:rgb(16, 149, 16); 
+    font-style: italic;
+    font-size: 18;
   }
   
   .item-description {
     flex: 5;
-    // color: white; /* White color for item descriptions */
-    background-color: rgb(144, 177, 144); /* Green background color for item descriptions */
+    background-color: rgb(144, 177, 144); 
     padding: 5px;
     border-radius: 5px;
+    font-style: oblique;
+    font-size: 18;
     
   }
   
   .item-price {
     flex: 1;
-    color: green; /* Green color for item prices */
+    color: rgb(4, 69, 27); 
   }
   
+  .category-heading {
+    text-decoration: underline; 
+    color: #495e57;
+    font-size: 24px; 
+    font-weight: bold; 
+  }
 
 
 
@@ -59,47 +73,3 @@
 
 
 
-// /* Menu.css */
-
-// .menu {
-//     font-family: Arial, sans-serif;
-//     padding: 20px;
-//     max-width: 600px;
-//     margin: 0 auto;
-//   }
-  
-//   h2 {
-//     font-size: 24px;
-//     margin-bottom: 20px;
-//     text-align: center;
-//   }
-  
-//   h3 {
-//     font-size: 20px;
-//     margin-top: 20px;
-//   }
-  
-//   ul {
-//     list-style: none;
-//     padding: 0;
-//   }
-  
-//   li {
-//     display: flex;
-//     justify-content: space-between;
-//     margin-bottom: 10px;
-//   }
-  
-//   .item-name {
-//     font-weight: bold;
-//   }
-  
-//   .item-description {
-//     flex: 1;
-//     margin-left: 10px;
-//   }
-  
-//   .item-price {
-//     min-width: 60px;
-//     text-align: right;
-//   }

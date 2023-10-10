@@ -37,7 +37,7 @@ const Header = () => {
                 <Link to="/reservation">Reservation</Link>
               </li>
               <li>
-                <Link to="/404">Login</Link>
+                <Link to="/login">Login</Link>
               </li>
             </ul>
             <Link className="cta" to="/404">

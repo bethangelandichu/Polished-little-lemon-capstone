@@ -1,0 +1,101 @@
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffeaa7; 
+    padding: 30px;
+  }
+  
+  .login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #f0932b; /* Button color for the restaurant */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #e67e22; /* Button color on hover */
+  }
+
+
+  .signup-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #495e57;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-form button:hover {
+    background-color: #3a4c45;
+  }
+  
+  /* Add some spacing and styling to the form elements */
+  .signup-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add specific styling for the error message if needed */
+  .signup-form .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #333; /* Change the color to your preference */
+    font-weight: bold; /* You can adjust font weight */
+    margin-bottom: 10px; /* Add spacing at the bottom of the heading */
+  }
+  
+  h2 {
+    font-size: 24px; /* Adjust the font size as needed */
+    color:#333; /* Change the color to your preference */
+    font-weight: bold; /* You can adjust font weight */
+    margin-bottom: 8px; /* Add spacing at the bottom of the heading */
+  }
+  .form-separator {
+    margin: 30px 0; /* Adjust the margin as needed to control the space */
+    height: 1px;
+  }

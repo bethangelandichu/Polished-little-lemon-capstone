@@ -41,6 +41,7 @@
         object-fit: cover;
         z-index: 1;
         box-shadow: 10px 5px 20px rgba(#000, 0.4);
+        border-radius: 20px; /* Add this line for rounded corners */
         &:last-child {
           z-index: 0;
           margin: -10% 0 0 -10%;

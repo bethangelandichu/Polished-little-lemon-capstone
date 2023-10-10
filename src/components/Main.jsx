@@ -3,7 +3,6 @@ import HeroSection from "./HeroSection";
 import "./Main.scss";
 import SpecialsMenu from "./SpecialsMenu";
 import Testimonials from "./Testimonials";
-// import Menu from "./Menu";
 const Main = () => {
   return (
     <main>

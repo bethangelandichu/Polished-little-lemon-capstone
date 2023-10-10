@@ -47,9 +47,9 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
+  
     .flex-item {
-      flex: 1 1 32%;
+    
       min-width: 300px;
       max-width: 400px;
       background-color: rgb(201, 243, 240);
@@ -73,7 +73,7 @@
         }
       }
       .content-wrap {
-        padding: 30px 25px;
+        padding: 30px 30px;
         font-family: $sec-font;
         line-height: 1.2;
         .title {

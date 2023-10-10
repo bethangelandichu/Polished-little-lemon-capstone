@@ -1,5 +1,7 @@
 @use "../scss/index" as *;
 .confirmed {
+ 
+  padding: 10px 13%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -7,6 +9,10 @@
   height: 70vh;
   margin: 100px auto;
   max-width: 500px;
+
+  .formField{
+    padding: 50px 20px;
+  }
   
   h2 {
     font-family: $primary-font;
@@ -15,15 +21,52 @@
     font-weight: 700;
     color: black;
   }
+
+
   .text {
     font-family: $sec-font;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.2;
-     color: $base-color;
+     color:#495e57 ;
+     text-align: center; 
+     margin-bottom: 80px;
    
     b {
-      font-weight: 700;
-     
+      font-weight: bold;
+      color: blue;
+      display:inline-flex;
+      margin-bottom:20px ;
+      margin-top: 20px;
+   
+
     }
+
   }
 }
+
+.redirect-buttons {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3vw;
+  justify-items: center;
+  top: 85%;
+  left: 50%;
+ 
+}
+
+.redirect-button {
+  background-color:#495e57;
+  color: white !important;
+  padding: 0.2vh 0.2rem 0.2vh 0.2rem;
+  border-radius: 0.3rem;
+  min-width: 12vw;
+  font-family: "Karla";
+  font-size: 18px;
+}
+
+.redirect-button:hover {
+  background-color: #f4ce14;
+  color: #464646 !important;
+  transition: 0.2s;
+}
+

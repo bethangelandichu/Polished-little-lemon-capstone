@@ -48,14 +48,11 @@ const Footer = () => {
                 <Link to="/reservation">Reservation</Link>
               </li>
               <li>
-                <Link to="/404">Login</Link>
+                <Link to="/login">Login</Link>
               </li>
             </ul>
           </div>
           <div className="footer-items">
-
- 
-
             <h3>Contact</h3>
             <p>
               <i>
@@ -75,7 +72,6 @@ const Footer = () => {
               </i>
               email: info@LittlelemonRe.com
             </p>
-            <div className="div"></div>
           </div>
           <div className="footer-items">
             <h3>Connect</h3>

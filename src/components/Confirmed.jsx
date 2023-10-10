@@ -1,7 +1,6 @@
 import "./Confirmed.scss";
 import { ReactComponent as Verified } from "../assets/Verified.svg";
 import { Link } from "react-router-dom";
-import Menu from "./Menu";
 const Confirmed = () => {
   return (
     <section className="confirmed container">
@@ -10,10 +9,12 @@ const Confirmed = () => {
       </div>
       <h2>Reservation Confirmed</h2>
       <p className="text">
-        <b>Thank You.!</b> You're Reservation is confirmed and an email has been
+        <b>Thank You!</b> 
+        <div>You're Reservation is confirmed and an email has been
         sent with the reservation details. 
 
-        See you soon!
+        <b>See you soon!</b>
+        </div>
       </p>
       <section className="redirect-buttons">
       <div>
@@ -22,14 +23,7 @@ const Confirmed = () => {
 
         </Link>
         </div>
-        {/* <a
-          className="redirect-button"
-          href={require("./assets/menu")}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Browse Menu
-        </a> */}
+      
         <div>
         <Link className="redirect-button" to="/order">
           Order Online.
@@ -52,3 +46,7 @@ const Confirmed = () => {
 };
 
 export default Confirmed;
+
+
+
+
