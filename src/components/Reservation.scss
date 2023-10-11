@@ -14,8 +14,8 @@
   }
 
   .container {
-        max-width: 800px; /* Set a maximum width for the reservation section */
-        width: 60%; /* Adjust as needed to control the width */
+        max-width: 800px; 
+        width: 60%; 
       
         padding: 30px; 
       }
@@ -24,7 +24,7 @@
   .reservation-wrap {
     display: flex;
   
-    // grid-template-columns: repeat(2, 1fr);
+  
     align-items: center;
     justify-items: center;
     grid-column-gap: 40px;
