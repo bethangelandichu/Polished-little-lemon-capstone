@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 
 
 function initializeTimes(date) {
-  // Hypothetical function to initialize available times based on the selected date
-  // This function should return an array of available times.
+
 }
 
 function updateTimes(newTimes) {
-  // Hypothetical function to update available times in the state
+ 
 }
 
 function ReservationForm() {

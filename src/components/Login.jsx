@@ -1,84 +1,5 @@
 
 
-// import React, { useState } from 'react';
-// import './Login.scss';
-
-// function Login() {
-//   const [email, setEmail] = useState('');
-//   const [password, setPassword] = useState('');
-//   const [signupEmail, setSignupEmail] = useState('');
-//   const [signupPassword, setSignupPassword] = useState('');
-
-//   const handleEmailChange = (e) => {
-//     setEmail(e.target.value);
-//   };
-
-//   const handlePasswordChange = (e) => {
-//     setPassword(e.target.value);
-//   };
-
-//   const handleSignupEmailChange = (e) => {
-//     setSignupEmail(e.target.value);
-//   };
-
-//   const handleSignupPasswordChange = (e) => {
-//     setSignupPassword(e.target.value);
-//   };
-
-//   const handleLogin = () => {
-//     // Implement your login logic here
-//   };
-
-//   const handleSignup = () => {
-//     // Implement your signup logic here
-//   };
-
-//   return (
-//     <div className="login-container">
-//       <h1>Login to Little Lemon Restaurant</h1>
-//       <form className="login-form">
-//         <input
-//           type="email"
-//           placeholder="Email"
-//           value={email}
-//           onChange={handleEmailChange}
-//         />
-//         <input
-//           type="password"
-//           placeholder="Password"
-//           value={password}
-//           onChange={handlePasswordChange}
-//         />
-//         <button type="button" onClick={handleLogin}>
-//           Login
-//         </button>
-//       </form>
-
-//       <h2> New here? Sign Up</h2>
-//       <form className="signup-form">
-//         <input
-//           type="email"
-//           placeholder="Email"
-//           value={signupEmail}
-//           onChange={handleSignupEmailChange}
-//         />
-//         <input
-//           type="password"
-//           placeholder="Password"
-//           value={signupPassword}
-//           onChange={handleSignupPasswordChange}
-//         />
-//         <button type="button" onClick={handleSignup}>
-         
-//           Sign Up
-//         </button>
-//       </form>
-//     </div>
-//   );
-// }
-
-// export default Login;
-
 import React, { useState } from 'react';
 import './Login.scss';
 
@@ -120,11 +41,11 @@ function Login() {
   };
 
   const handleLogin = () => {
-    // Implement your login logic here
+  
   };
 
   const handleSignup = () => {
-    // Implement your signup logic here
+   
   };
 
   return (
@@ -150,7 +71,7 @@ function Login() {
           Login
         </button>
       </form>
-      <div className="form-separator"></div> {/* Add this for separation between forms */}
+      <div className="form-separator"></div> 
       <div className="signup-heading">
       <h2>New here?
           Sign Up

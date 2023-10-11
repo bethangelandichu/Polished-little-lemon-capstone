@@ -18,7 +18,6 @@ describe('Reservation', () => {
     const commentsTextarea = screen.getByLabelText('Special Requests:');
     const confirmButton = screen.getByText('Confirm Reservation');
 
-    // Check if all the form elements are rendered
     expect(occasionSelect).toBeInTheDocument();
     expect(preferencesSelect).toBeInTheDocument();
     expect(dateInput).toBeInTheDocument();
@@ -30,7 +29,6 @@ describe('Reservation', () => {
     expect(commentsTextarea).toBeInTheDocument();
     expect(confirmButton).toBeInTheDocument();
 
-    // Simulate user interactions (you can add more interactions as needed)
     fireEvent.change(occasionSelect, { target: { value: 'Birthday' } });
     fireEvent.change(preferencesSelect, { target: { value: 'Indoors' } });
     fireEvent.change(dateInput, { target: { value: '2023-09-30' } });
@@ -43,23 +41,10 @@ describe('Reservation', () => {
     // Click the confirm button
     fireEvent.click(confirmButton);
 
-    // You can add assertions for the interactions if needed
   });
 });
 
 
 
-
-
-
-
-// import { render, screen } from '@testing-library/react';
-// import App from './App';
-
-// test('renders learn react link', () => {
-//   render(<App />);
-//   const linkElement = screen.getByText(/learn react/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
 
 
